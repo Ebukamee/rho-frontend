@@ -83,7 +83,7 @@ const copyDockerCommand = async () => {
               </span>
             </h1>
             <p class="mt-space-lg text-body-lg font-body-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
-              Rho is a self-hosted, API-first commerce backend written in Go, backed by PostgreSQL. Auth, catalog, cart, checkout, payments, inventory, discounts, addresses, shipping, and notifications — one API, your own database, no platform fees.
+              Rho is a self-hosted, API-first commerce backend, backed by PostgreSQL. Auth, catalog, cart, checkout, payments, inventory, discounts, addresses, shipping, and notifications — one API, your own database, no platform fees.
             </p>
           </div>
 
