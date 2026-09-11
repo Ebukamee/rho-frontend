@@ -14,9 +14,9 @@ const isLinkActive = (path: string) => {
       <div class="h-header-height w-full px-space-base lg:px-space-xl flex items-center justify-between gap-space-md">
         <div class="flex items-center gap-space-lg">
           <RouterLink class="flex items-center gap-space-sm group" to="/">
-            <span class="flex items-center justify-center w-7 h-7 rounded-lg bg-surface-container-high border border-outline-variant text-primary font-headline-sm text-headline-sm leading-none font-bold">ρ</span>
-            <span class="font-headline-sm text-headline-sm font-semibold tracking-tight text-on-surface">rho</span>
-            <span class="font-label-code text-label-code px-space-xs py-space-2xs rounded bg-surface-container-high text-on-surface-variant font-mono border border-surface-variant">v0.2.0</span>
+            <img alt="Rho Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XWLoAM8a2PEkbAg-mDDjEBMZQKzG21WmEh24Etm0tW8_de9k_Q1SVhK9KZp7VdBF-LCJMe-NczY9qHgTbp_HUcANBD9ui2qQa1Nn-C878ersvMkX6hA32NQWC3dvItCzwoxLKx3DhJfcIrAX0lZh0Tt94uM4gUhIIE-Y35qqkK85OPqpptPQJhI2N59mW1_6YWQaXmqbY1c8gF2j4zHul7KDX9xLbL3LtYlW9mL29SgslbiWcnhUr1Qw"/>
+            <span class="font-headline-sm text-headline-sm font-semibold tracking-tight text-on-surface">Rho</span>
+            <span class="font-label-code text-label-code px-space-xs py-space-2xs rounded bg-surface-container text-on-surface-variant">v0.1.4</span>
           </RouterLink>
 
           <nav class="hidden xl:flex items-center gap-space-xs">
@@ -63,7 +63,7 @@ const isLinkActive = (path: string) => {
       </div>
     </header>
 
-    <aside class="fixed left-0 top-header-height bottom-0 w-sidebar-left-width z-40 bg-surface-container-lowest border-r border-surface-container-high overflow-y-auto hidden md:flex flex-col py-space-md px-space-sm">
+    <aside v-if="route.path !== '/'" class="fixed left-0 top-header-height bottom-0 w-sidebar-left-width z-40 bg-surface-container-lowest border-r border-surface-container-high overflow-y-auto hidden md:flex flex-col py-space-md px-space-sm">
       <div class="px-space-sm pb-space-xs font-label-code text-label-code uppercase tracking-wider text-outline font-semibold">Start Here</div>
       <nav class="flex flex-col gap-space-2xs mb-space-lg">
         <RouterLink class="px-space-sm py-space-xs rounded-lg font-body-sm text-body-sm transition-colors flex items-center justify-between" :class="isLinkActive('/docs/getting-started') ? 'bg-surface-container-high text-primary font-semibold' : 'text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface'" to="/docs/getting-started">Getting Started</RouterLink>
