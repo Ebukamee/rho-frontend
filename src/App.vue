@@ -13,7 +13,7 @@ const isLinkActive = (path: string) => {
     <header v-if="route.path === '/'" class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl border-b border-surface-container-high/70">
       <div class="h-header-height max-w-7xl mx-auto px-space-base lg:px-space-xl flex items-center justify-between gap-space-md">
         <RouterLink class="flex items-center gap-space-sm group shrink-0" to="/">
-          <img alt="Rho Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XWLoAM8a2PEkbAg-mDDjEBMZQKzG21WmEh24Etm0tW8_de9k_Q1SVhK9KZp7VdBF-LCJMe-NczY9qHgTbp_HUcANBD9ui2qQa1Nn-C878ersvMkX6hA32NQWC3dvItCzwoxLKx3DhJfcIrAX0lZh0Tt94uM4gUhIIE-Y35qqkK85OPqpptPQJhI2N59mW1_6YWQaXmqbY1c8gF2j4zHul7KDX9xLbL3LtYlW9mL29SgslbiWcnhUr1Qw" />
+          <img alt="Rho Logo" class="h-8 w-auto object-contain" src="/favicon.svg" />
           <span class="font-headline-sm text-headline-sm font-semibold tracking-tight text-on-surface">Rho</span>
           <span class="font-label-code text-label-code px-space-xs py-space-2xs rounded bg-surface-container text-on-surface-variant">v0.2.0</span>
         </RouterLink>
@@ -36,7 +36,7 @@ const isLinkActive = (path: string) => {
       <div class="h-header-height w-full px-space-base lg:px-space-xl flex items-center justify-between gap-space-md">
         <div class="flex items-center gap-space-lg">
           <RouterLink class="flex items-center gap-space-sm group" to="/">
-            <img alt="Rho Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XWLoAM8a2PEkbAg-mDDjEBMZQKzG21WmEh24Etm0tW8_de9k_Q1SVhK9KZp7VdBF-LCJMe-NczY9qHgTbp_HUcANBD9ui2qQa1Nn-C878ersvMkX6hA32NQWC3dvItCzwoxLKx3DhJfcIrAX0lZh0Tt94uM4gUhIIE-Y35qqkK85OPqpptPQJhI2N59mW1_6YWQaXmqbY1c8gF2j4zHul7KDX9xLbL3LtYlW9mL29SgslbiWcnhUr1Qw" />
+            <img alt="Rho Logo" class="h-8 w-auto object-contain" src="/favicon.svg" />
             <span class="font-headline-sm text-headline-sm font-semibold tracking-tight text-on-surface">Rho</span>
             <span class="font-label-code text-label-code px-space-xs py-space-2xs rounded bg-surface-container text-on-surface-variant">v0.2.0</span>
           </RouterLink>
